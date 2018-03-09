@@ -14,3 +14,9 @@ Here are some testing results. It seems good but lots of improvement is needed.
 ![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/0_Parade_marchingband_1_746.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_848.jpg)
 ![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/12_Group_Group_12_Group_Group_12_28.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/20_Family_Group_Family_Group_20_493.jpg)
 
+## License
+MIT LICENSE
+
+## References
+1. [face-detection](https://github.com/sudhakar-sah/face-detection)
+2. [keras-mobilenet](https://github.com/rcmalli/keras-mobilenet)
