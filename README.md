@@ -11,8 +11,8 @@ Follow [face_train.ipynb](https://github.com/bruceyang2012/face-detection-with-m
 ## test
 Here are some testing results. It seems good but lots of improvement is needed.
 
-![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/0_Parade_marchingband_1_746.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_848.jpg)
-![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/12_Group_Group_12_Group_Group_12_28.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/20_Family_Group_Family_Group_20_493.jpg)
+![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/10_People_Marching_People_Marching_2_307.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/12_Group_Group_12_Group_Group_12_331.jpg)
+![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/36_Football_americanfootball_ball_36_1021.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/54_Rescue_rescuepeople_54_1006.jpg)
 
 ## License
 MIT LICENSE
