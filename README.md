@@ -6,7 +6,7 @@ This is a implemetation of mobile-ssd for face detection written by keras.
 2. Download [WIDER Face](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) from Official Website , and put it into face_data folder in [face_generator.py](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/face_generator.py).
 
 ## train
-Follow [face_train.ipynb](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/face_train.py) step by step. You can change the parameters for better performance.
+Follow [face_train.ipynb](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/face_train.ipynb) step by step. You can change the parameters for better performance.
 
 ## test
 Here are some testing results. It seems good but lots of improvement is needed.
