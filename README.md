@@ -10,7 +10,7 @@ This is a implemetation of mobile-ssd for face detection written by keras.
 2. [wider_train_small.npy](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/wider_train_small.npy) and [wider_val_small.npy](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/wider_val_small.npy) are made to testing the network. If you don't have enough gpu resources, you can also use them for training.
 
 ## test
-Here are some testing results. It seems good but improvement is still needed.
+Here are some testing results. It seems good but improvement is still needed. For example, the Bbox is a little bit inaccurate.
 
 ![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/38_Tennis_Tennis_38_683.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/2_Demonstration_Demonstration_Or_Protest_2_441.jpg)
 ![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/10_People_Marching_People_Marching_2_307.jpg)![image](https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/12_Group_Group_12_Group_Group_12_331.jpg)
