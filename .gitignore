@@ -1,3 +1,2 @@
-/models
-/annotations
-/cv2.so
+/.ipynb_checkpoints
+/__pycache__
