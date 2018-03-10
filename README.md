@@ -1,5 +1,5 @@
 ## Description
-This is a implemetation of mobile-ssd for face detection written by keras.
+This is a implemetation of mobilenet-ssd for face detection written by keras.
 
 ## prepare data
 1. You are advised to use CUDA-compatible GPUs to train the model.
