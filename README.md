@@ -1,5 +1,5 @@
 ## Description
-This is a implemetation of mobilenet-ssd for face detection written by keras.
+This is a implementation of mobilenet-ssd for face detection written by keras.
 
 ## prepare data
 1. You are advised to use CUDA-compatible GPUs to train the model.
@@ -20,5 +20,5 @@ Here are some testing results. It seems good but improvement is still needed. Fo
 MIT LICENSE
 
 ## References
-1. [face-detection-ssd](https://github.com/sudhakar-sah/face-detection)
-2. [keras-mobilenet](https://github.com/rcmalli/keras-mobilenet)
+1. [sudhakar-sah/face-detection](https://github.com/sudhakar-sah/face-detection)
+2. [rcmalli/keras-mobilenet](https://github.com/rcmalli/keras-mobilenet)
