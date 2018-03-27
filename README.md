@@ -1,8 +1,8 @@
 ## Description
 This is a implementation of mobilenet-ssd for face detection written by keras, which is the first step of my FaceID system. You can find another two repository as follows:
-1.[Face-detection-with-mobilenet-ssd](https://github.com/bruceyang2012/Face-detection-with-mobilenet-ssd)
-2.[Face-Alignment-with-simple-cnn](https://github.com/bruceyang2012/Face-Alignment-with-simple-cnn)
-3.Face-identification-with-cnn-triplet-loss(To do)
+1. [Face-detection-with-mobilenet-ssd](https://github.com/bruceyang2012/Face-detection-with-mobilenet-ssd)
+2. [Face-Alignment-with-simple-cnn](https://github.com/bruceyang2012/Face-Alignment-with-simple-cnn)
+3. Face-identification-with-cnn-triplet-loss(To do)
 
 ## prepare data
 1. You are advised to use CUDA-compatible GPUs to train the model.
