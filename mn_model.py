@@ -1,18 +1,9 @@
 from __future__ import print_function
 
 import numpy as np
-#from keras.models import Model
-#from keras.layers import Input, Lambda, Conv2D, MaxPooling2D, BatchNormalization, ELU, Reshape, Concatenate, Activation, LeakyReLU
-
-from keras_layer_AnchorBoxes import AnchorBoxes
-
-
-import numpy as np
 import warnings
 
-#import sys
-#sys.path.insert(0, '/home/hicham/keras_1_2_0/')
-
+from keras_layer_AnchorBoxes import AnchorBoxes
 from keras import backend as K
 from keras.utils import np_utils
 from keras.models import *
@@ -28,11 +19,8 @@ from keras.optimizers import *
 from keras.constraints import *
 from keras.layers.noise import *
 
-import numpy as np
 from keras.models import Model
 from keras.layers import Input, Lambda, Conv2D, MaxPooling2D, BatchNormalization, ELU, Reshape, Concatenate, Activation
-
-from keras_layer_AnchorBoxes import AnchorBoxes
 
 from keras_layer_L2Normalization import L2Normalization
 
@@ -46,9 +34,6 @@ init_ = 'glorot_uniform'
 conv_has_bias = True #False for BN
 fc_has_bias = True
 
-
-
-
 #######################################################################
 #Separable filter 
 def separable_res_block1(input_layer, layer_name, nb_filter, nb_row, subsample=(1,1)):
@@ -57,7 +42,6 @@ def separable_res_block1(input_layer, layer_name, nb_filter, nb_row, subsample=(
     x_left  = bn_conv_layer(x, layer_name + '_left',  nb_filter, nb_row, 1, subsample)
     x = Lambda(lambda z : (z[0] + z[1])/2., name = layer_name + '_merge')([x_right,x_left])
     return x
-
 
 
 #######################################################################
@@ -339,8 +323,6 @@ def mn_model(image_size,
                 variances=[1.0, 1.0, 1.0, 1.0],
                 coords='centroids',
                 normalize_coords=False):
-   
-
    
     n_predictor_layers = 6 # The number of predictor conv layers in the network is 6 for the original SSD300
 
