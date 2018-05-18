@@ -23,5 +23,5 @@ Here are some testing results. It seems good but improvement is still needed. Fo
 MIT LICENSE
 
 ## References
-1. [sudhakar-sah/face-detection](https://github.com/sudhakar-sah/face-detection)
+1. [rykov8/ssd_keras](https://github.com/rykov8/ssd_keras)
 2. [rcmalli/keras-mobilenet](https://github.com/rcmalli/keras-mobilenet)
