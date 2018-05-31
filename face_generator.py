@@ -468,7 +468,7 @@ class BatchGenerator:
                 train_cnt = train_cnt + 1
                 sys.stdout.flush()
                 #print "reading training image {0} of {1}".format(train_cnt, n_train_samples)
-                img_path = "C:/DL/data/face_data/wider_faces/"
+                img_path = "./dataset/"
                 img_name = data[key][1]
                 image_id = key
                 
