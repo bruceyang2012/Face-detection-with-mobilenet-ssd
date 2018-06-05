@@ -23,7 +23,8 @@ Here are some testing results. It seems good but improvement is still needed. Fo
 <div align=center><img src="https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/36_Football_americanfootball_ball_36_1021.jpg">    <img src="https://github.com/bruceyang2012/face-detection-with-mobilenet-ssd/raw/master/output_test/54_Rescue_rescuepeople_54_1006.jpg"/></div>
 
 ## to do
-Evaluation is on the way.
+1.Evaluation is on the way.
+2.MobileNetV2 version.
 
 ## License
 MIT LICENSE
