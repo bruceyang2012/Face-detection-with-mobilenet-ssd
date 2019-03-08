@@ -390,10 +390,8 @@ def mn_model(image_size,
         n_boxes_conv8_2 = n_boxes
         n_boxes_conv9_2 = n_boxes
     
-    
-
-    print ("====> Model Specific data")
-    print ("====> Height, Width, Channels :", image_size[0], image_size[1], image_size[2])
+  
+    print ("Height, Width, Channels :", image_size[0], image_size[1], image_size[2])
        # Input image format
     img_height, img_width, img_channels = image_size[0], image_size[1], image_size[2]
 

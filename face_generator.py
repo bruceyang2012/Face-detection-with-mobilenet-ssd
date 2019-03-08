@@ -45,9 +45,6 @@ from tqdm import tqdm
 #from __future__ import print_function
 
 
-# Error : TypeError: can't pickle generator objects
-
-
 from scipy.misc import imresize
 
 resize_fct = imresize
@@ -411,19 +408,19 @@ class BatchGenerator:
             return self.filenames, self.labels
 
     def parse_xml(self,
-                      annotations_path=None,
-                      image_set_path=None,
-                      image_set=None,
-                      classes=['background',
-                               'aeroplane', 'bicycle', 'bird', 'boat',
-                               'bottle', 'bus', 'car', 'cat',
-                               'chair', 'cow', 'diningtable', 'dog',
-                               'horse', 'motorbike', 'person', 'pottedplant',
-                               'sheep', 'sofa', 'train', 'tvmonitor'],
-                      exclude_truncated=False,
-                      exclude_difficult=False,
-                      ret=False,
-                      debug = False):
+                  annotations_path=None,
+                  image_set_path=None,
+                  image_set=None,
+                  classes=['background',
+                           'aeroplane', 'bicycle', 'bird', 'boat',
+                           'bottle', 'bus', 'car', 'cat',
+                           'chair', 'cow', 'diningtable', 'dog',
+                           'horse', 'motorbike', 'person', 'pottedplant',
+                           'sheep', 'sofa', 'train', 'tvmonitor'],
+                  exclude_truncated=False,
+                  exclude_difficult=False,
+                  ret=False,
+                  debug = False):
             '''
             This is a parser for the Pascal VOC datasets. It might be used for other datasets with minor changes to
             the code, but in its current form it expects the data format and XML tags of the Pascal VOC datasets.
@@ -464,11 +461,10 @@ class BatchGenerator:
             n_train_samples = len(data)
             train_cnt =0 
             for key in data:
-                #img_path = "./images/"
                 train_cnt = train_cnt + 1
                 sys.stdout.flush()
                 #print "reading training image {0} of {1}".format(train_cnt, n_train_samples)
-                img_path = "./dataset/"
+                img_path = image_set_path
                 img_name = data[key][1]
                 image_id = key
                 
