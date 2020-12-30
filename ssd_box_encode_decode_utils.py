@@ -651,7 +651,7 @@ class SSDBoxEncoder:
 
         # If `limit_boxes` is enabled, clip the coordinates to lie within the image boundaries
         if self.limit_boxes:
-            """
+            
             x_coords = boxes_tensor[:,:,:,[0, 1]]
             x_coords[x_coords >= self.img_width] = self.img_width - 1
             x_coords[x_coords < 0] = 0
@@ -660,8 +660,8 @@ class SSDBoxEncoder:
             y_coords[y_coords >= self.img_height] = self.img_height - 1
             y_coords[y_coords < 0] = 0
             boxes_tensor[:,:,:,[2, 3]] = y_coords
-            """
-
+            
+            '''
             x_coords = boxes_tensor[:,:,:,[0, 2]]
             x_coords[x_coords >= self.img_width] = self.img_width - 1
             x_coords[x_coords < 0] = 0
@@ -670,14 +670,14 @@ class SSDBoxEncoder:
             y_coords[y_coords >= self.img_height] = self.img_height - 1
             y_coords[y_coords < 0] = 0
             boxes_tensor[:,:,:,[1, 3]] = y_coords
-
+            '''
 
         # `normalize_coords` is enabled, normalize the coordinates to be within [0,1]
         if self.normalize_coords:
-            #boxes_tensor[:, :, :, :2] /= self.img_width
-            #boxes_tensor[:, :, :, 2:] /= self.img_height
-            boxes_tensor[:, :, :, [0,2]] /= self.img_width
-            boxes_tensor[:, :, :, [1,3]] /= self.img_height
+            boxes_tensor[:, :, :, :2] /= self.img_width
+            boxes_tensor[:, :, :, 2:] /= self.img_height
+            #oxes_tensor[:, :, :, [0,2]] /= self.img_width
+            #oxes_tensor[:, :, :, [1,3]] /= self.img_height
 
         if self.coords == 'centroids':
             # TODO: Implement box limiting directly for `(cx, cy, w, h)` so that we don't have to unnecessarily convert back and forth
